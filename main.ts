@@ -68,3 +68,4 @@ scene.setTile(5, img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, true)
+mySprite = 0
