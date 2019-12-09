@@ -1,0 +1,68 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="aUv?tN[2##Hqfs40sw-Q">mySprite</variable><variable type="KIND_SpriteKind" id="Jo4d!o.{u2[bA=;2:zjc">Player</variable><variable type="KIND_SpriteKind" id="[EQKgOogQ?uf)AnADh@s">Projectile</variable><variable type="KIND_SpriteKind" id="DoYjI{|pgTCM!aWCj:A@">Food</variable><variable type="KIND_SpriteKind" id=".X(gctIGyq^]0]xBbuzO">Enemy</variable></variables><block type="pxt-on-start" x="0" y="0"><statement name="HANDLER"><block type="variables_set"><field name="VAR" id="aUv?tN[2##Hqfs40sw-Q">mySprite</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate"><value name="img"><shadow type="screen_image_picker"><field name="img">img`
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 8 8 7 7 7 7 7 8 8 7 7 7 7 2 2 2 2 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 8 8 8 8 7 7 7 8 8 8 8 7 7 7 2 2 2 2 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 8 8 8 8 7 7 7 8 8 8 8 7 7 7 7 2 2 2 2 2 7 7 7 7 7 7 7 7 7 
+7 7 7 7 8 8 7 7 7 7 7 8 8 7 7 7 7 7 2 2 2 2 2 2 2 7 7 7 7 7 7 7 
+2 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 2 2 2 2 2 7 7 7 7 7 7 7 
+7 2 7 7 7 7 7 7 7 7 7 7 2 2 2 2 2 7 7 7 7 2 2 2 2 7 7 7 7 7 7 7 
+7 2 2 7 7 7 7 2 7 7 2 7 2 7 7 7 7 7 2 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 2 7 7 7 7 2 7 7 2 7 2 7 2 7 2 2 2 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 2 2 7 7 7 2 2 2 2 7 7 7 2 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 2 2 2 7 7 2 2 2 7 7 7 8 8 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 2 2 7 7 2 2 7 7 7 7 8 7 7 7 7 7 2 7 7 7 7 7 7 7 7 7 
+7 7 7 8 8 7 2 2 7 7 2 2 7 7 7 7 8 7 7 8 7 7 7 2 2 2 7 7 7 7 7 7 
+7 7 7 7 8 7 2 2 2 2 2 2 7 7 7 7 7 7 7 8 8 7 7 7 7 2 7 7 7 7 7 7 
+2 2 7 8 8 7 2 2 2 2 2 2 7 7 2 2 2 2 7 7 7 8 8 7 2 2 7 7 7 7 7 7 
+7 2 7 8 7 7 7 7 7 7 7 7 7 7 7 7 7 2 2 2 7 2 2 2 2 7 7 7 7 7 7 7 
+7 2 7 8 8 8 7 7 2 2 7 8 7 7 7 8 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+2 2 7 7 7 8 8 7 7 7 7 8 7 7 7 8 8 8 8 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 2 7 2 7 7 8 7 2 8 7 7 7 7 7 7 8 8 7 7 7 7 7 2 7 7 7 7 7 7 7 7 
+7 7 7 2 7 2 8 8 8 8 8 8 7 7 7 7 7 7 7 7 7 2 7 7 2 7 7 7 7 7 7 7 
+7 2 2 2 7 2 7 8 8 7 7 8 8 7 7 7 7 7 7 7 2 7 7 7 7 2 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 2 7 7 7 7 7 7 7 7 7 7 2 7 7 7 2 7 7 2 7 7 7 7 7 
+7 7 7 7 7 7 2 2 7 7 7 7 7 7 7 7 7 7 2 7 7 2 7 7 2 7 7 2 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 2 7 7 7 2 7 7 7 2 7 7 2 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 2 2 7 2 7 7 2 7 7 2 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 2 7 7 7 2 7 7 2 7 2 7 7 7 7 7 7 2 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 2 7 7 7 2 7 7 7 2 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 2 7 7 7 2 2 2 2 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 2 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 2 7 7 7 7 7 7 7 7 7 7 7 7 7 
+`</field></shadow></value><value name="kind"><shadow type="spritekind"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesettile"><value name="index"><shadow type="colorindexpicker"><field name="index">2</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">true</field></shadow></value><next><block type="gamesettile"><value name="index"><shadow type="colorindexpicker"><field name="index">5</field></shadow></value><value name="img"><shadow type="tile_image_picker"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="wall"><shadow type="toggleOnOff"><field name="on">true</field></shadow></value></block></next></block></next></block></statement></block></xml>
